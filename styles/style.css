@@ -12,7 +12,7 @@
 .container {
   width: 80%;
   max-width: 1320px;
-  margin: 0 auto;
+  margin: 60px auto;
 }
 /* Header styles area */
 header {
@@ -42,4 +42,34 @@ header h1 {
   font-size: 72px;
   font-weight: 900;
   line-height: 95px; /* 131.944% */
+}
+
+/* Categories styles area */
+.categories {
+  text-align: center;
+}
+.categories h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+.categories p {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.categories h2 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.categories img {
+  width: 802.9px;
+  height: 500px;
+  flex-shrink: 0;
 }
