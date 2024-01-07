@@ -1,9 +1,45 @@
 /* Google font family import here */
 /* Font Family Merriweather and Inter imported */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700;900&display=swap");
+
+/* Common styles area */
 * {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
+}
+.container {
+  width: 80%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+/* Header styles area */
+header {
+  background-image: url("../images/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1320px;
+  height: 600px;
+  flex-shrink: 0;
+  margin: 50px auto;
+}
+.banner {
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  height: 100%;
+}
+header h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 15%;
+}
+header h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px; /* 131.944% */
 }
