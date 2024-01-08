@@ -275,7 +275,11 @@ header h1 {
 }
 .portfolio-items {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+}
+.portfolio-column {
+    display: flex;
+    gap: 24px;
 }
 .portfolio-items img {
   width: 424px;
