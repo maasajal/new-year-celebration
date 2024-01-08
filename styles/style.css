@@ -10,7 +10,6 @@
   font-family: "Merriweather", serif;
 }
 .container {
-  width: 80%;
   max-width: 1320px;
   margin: 60px auto;
 }
@@ -188,4 +187,58 @@ header h1 {
   width: 424px;
   height: 450px;
   margin: 12px 0;
+}
+/* Subscribe Newsletter styles area */
+.newsletter {
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  width: 1320px;
+  height: 616px;
+}
+.newsletter img {
+  margin-top: 80px;
+}
+.newsletter h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+.newsletter p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 896px;
+  margin: 22px auto;
+}
+.newsletter .subscribe-form {
+  margin-top: 26px;
+}
+.newsletter input[type="email"] {
+  padding: 25px;
+  border-radius: 50px 0 0 50px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  width: 648px;
+  border: 0;
+}
+.newsletter input[type="submit"] {
+  padding: 25px;
+  border-radius: 0 50px 50px 0;
+  color: #fff;
+  background: #f00;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  width: 210px;
+  border: 0;
+  margin-left: -5px;
 }
