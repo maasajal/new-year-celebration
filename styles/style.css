@@ -118,3 +118,41 @@ header h1 {
   border: 0;
   margin: 24px;
 }
+
+/* Schedule styles area */
+.schedule {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 1320px;
+  height: 482px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  text-align: center;
+  padding-top: 100px;
+}
+.schedule p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.schedule p span {
+  color: #f00;
+}
+.schedule .join-now {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  margin: 50px 0;
+  border: 0;
+}
